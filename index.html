@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <!-- criar conta -->
+        <div class="criar-conta">
+            <form action="">
+                <h1>Criar Conta</h1>
+                <input type="email" name="" id="" placeholder="Email" required>
+                <input type="password" name="" id="" placeholder="Senha" required>
+                <input type="submit" value="Criar">
+            </form>
+        </div>
+        <!-- entrar na conta -->
+        <div class="entrar-conta">
+            <form action="">
+                <h1>Entrar Conta</h1>
+                <input type="email" name="" id="" placeholder="Email" required>
+                <input type="password" name="" id="" placeholder="Senha" required>
+                <a href="#">Esqueceu sua senha?</a>
+                <input type="submit" value="Entrar">
+            </form>
+        </div>
+
+        <div class="aviso" id="aviso">
+            <div class="aviso-direita">
+                <div class="aviso-conteudo">
+                    <h1>Seja bem-vindo de volta!</h1>
+                    <p>Entre com os dados da sua conta para poder usar o site.</p>
+                    <input type="button" class="hidden" value="Entrar" onclick="telaEntrar()">
+                </div>
+            </div>
+            <div class="aviso-esquerda">
+                <div class="aviso-conteudo">
+                    <h1>Seja bem-vindo!</h1>
+                    <p>Crie uma conta para poder usar o site.</p>
+                    <input type="button" class="hidden" value="Criar" onclick="telaCriar()">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
