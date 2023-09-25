@@ -42,9 +42,9 @@ main input[type=button]{
     cursor: pointer;
 }
 
-main input[type=button]:hover{
+/*main input[type=button]:hover{
     background-color: rgb(112, 40, 180);
-}
+}*/
 
 main input[type=submit]{
     margin: 8px 0px;
@@ -56,9 +56,9 @@ main input[type=submit]{
     cursor: pointer;
 }
 
-main input[type=submit]:hover{
+/*main input[type=submit]:hover{
     background-color: rgb(60, 15, 110);
-}
+}*/
 
 form{
     display: flex;
@@ -153,6 +153,6 @@ main a{
     font-size: 0.9em;
 }
 
-main a:hover{
+/*main a:hover{
     background-color: #d8d8d8;
-}
+}*/

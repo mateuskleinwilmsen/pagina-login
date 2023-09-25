@@ -25,13 +25,22 @@ function displayWindowSize(){
     let divAviso = document.getElementById("aviso");
     let divCriarConta = document.getElementById("criar-conta");
     let width = window.outerWidth;
-    
+
     if(width<768){
-        divAviso.style.left = "0%";
+        if(divAviso.style.left == "50%"){
+            divAviso.style.left = "0%";
+        }
+        else if(divAviso.style.left == "-50%"){
+            divAviso.style.left = "-100%";
+        }
     }else{
-        divAviso.style.left = "50%";
+        if(divAviso.style.left == "0%"){
+            divAviso.style.left = "50%";
+        }
+        else if(divAviso.style.left == "-100%"){
+            divAviso.style.left = "-50%";
+        }
     }
-    divCriarConta.style.zIndex = "2";
 }
     
 //evento que chama a função quando a tela muda de tamanho
