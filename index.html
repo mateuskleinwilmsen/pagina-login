@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="estilo/style.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="estilo/mediaquery.css">
 <body>
     <main>
         <!-- criar conta -->
-        <div class="criar-conta">
-            <form autocomplete="on">
-                <h1>Criar Conta</h1>
-                <input type="email" name="" id="" placeholder="Email" required>
-                <input type="password" name="" id="" placeholder="Senha" required>
-                <input type="submit" value="Criar">
-            </form>
-        </div>
-        <!-- entrar na conta -->
-        <div class="entrar-conta">
-            <form autocomplete="on">
-                <h1>Entrar Conta</h1>
-                <input type="email" name="" id="" placeholder="Email" required>
-                <input type="password" name="" id="" placeholder="Senha" required>
-                <a href="#">Esqueceu sua senha?</a>
-                <input type="submit" value="Entrar">
-            </form>
+        <div class="dados-conta">
+            <div class="criar-conta" id="criar-conta">
+                <form autocomplete="on">
+                    <h1>Criar Conta</h1>
+                    <input type="email" name="" id="" placeholder="Email" required>
+                    <input type="password" name="" id="" placeholder="Senha" required>
+                    <input type="submit" value="Criar">
+                </form>
+            </div>
+            <!-- entrar na conta -->
+            <div class="entrar-conta" id="entrar-conta">
+                <form autocomplete="on">
+                    <h1>Entrar Conta</h1>
+                    <input type="email" name="" id="" placeholder="Email" required>
+                    <input type="password" name="" id="" placeholder="Senha" required>
+                    <a href="#">Esqueceu sua senha?</a>
+                    <input type="submit" value="Entrar">
+                </form>
+            </div>
         </div>
 
         <div class="aviso" id="aviso">

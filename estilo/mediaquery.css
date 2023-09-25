@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .dados-conta{
+        position: relative;
+        height: 80%;
+    }
+    .aviso{
+        position: relative;
+        display: flex;
+        height: 30%;
+        width: 200%;
+        border-radius: 0px;
+        transition: none;
+    }
+    .aviso-conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aviso input{
+        width: 35%;
+    }
+
+    .aviso h1{
+        display: none;
+    }
+    
+    .entrar-conta{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .criar-conta{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
