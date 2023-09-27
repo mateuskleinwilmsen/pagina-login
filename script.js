@@ -37,7 +37,7 @@ function displayWindowSize(){
     let divCriarConta = document.getElementById("criar-conta");
     let width = window.outerWidth;
 
-    if(width<768){
+    if(width<=768+24){
         if(divAviso.style.left == "50%"){
             divAviso.style.left = "0%";
         }
