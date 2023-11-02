@@ -5,7 +5,7 @@ function telaEntrar(){
     let criarEmail = document.getElementById("criarEmail");
     let criarSenha = document.getElementById("criarSenha");
 
-    if(width<768){
+    if(width<768+24){
         divAviso.style.left = "-100%";
     }else{divAviso.style.left = "-50%";}
     divCriarConta.style.zIndex = "0";
@@ -22,7 +22,7 @@ function telaCriar(){
     let entrarEmail = document.getElementById("entrarEmail");
     let entrarSenha = document.getElementById("entrarSenha");
 
-    if(width<768){
+    if(width<768+24){
         divAviso.style.left = "0%";
     }else{divAviso.style.left = "50%";}
     divCriarConta.style.zIndex = "2";
