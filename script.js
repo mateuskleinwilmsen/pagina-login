@@ -1,11 +1,11 @@
 function telaEntrar(){
     let divAviso = document.getElementById("aviso");
     let divCriarConta = document.getElementById("criar-conta");
-    let width = window.outerWidth;
     let criarEmail = document.getElementById("criarEmail");
     let criarSenha = document.getElementById("criarSenha");
+    let width = window.innerWidth;
 
-    if(width<768+24){
+    if(width<768){
         divAviso.style.left = "-100%";
     }else{divAviso.style.left = "-50%";}
     divCriarConta.style.zIndex = "0";
@@ -18,11 +18,11 @@ function telaEntrar(){
 function telaCriar(){
     let divAviso = document.getElementById("aviso");
     let divCriarConta = document.getElementById("criar-conta");
-    let width = window.outerWidth;
     let entrarEmail = document.getElementById("entrarEmail");
     let entrarSenha = document.getElementById("entrarSenha");
+    let width = window.innerWidth;
 
-    if(width<768+24){
+    if(width<768){
         divAviso.style.left = "0%";
     }else{divAviso.style.left = "50%";}
     divCriarConta.style.zIndex = "2";
@@ -35,9 +35,9 @@ function telaCriar(){
 function displayWindowSize(){
     let divAviso = document.getElementById("aviso");
     let divCriarConta = document.getElementById("criar-conta");
-    let width = window.outerWidth;
+    let width = window.innerWidth;
 
-    if(width<=768+24){
+    if(width<=768){
         if(divAviso.style.left == "50%"){
             divAviso.style.left = "0%";
         }
